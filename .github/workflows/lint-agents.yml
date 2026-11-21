@@ -33,7 +33,7 @@ jobs:
     name: Validate agent frontmatter and structure
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
 
@@ -80,7 +80,7 @@ jobs:
     # against every agent before it lands, or it either breaks a division nobody
     # edited or quietly does nothing.
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
 
